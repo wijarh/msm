@@ -1,0 +1,573 @@
+body {
+     font-family: 'Poppins', sans-serif;
+     /* background-color: #0d6efd; */
+}
+
+/*-------------------- Navbar -------------------*/
+.navbar {
+     z-index: 15;
+}
+
+.msm-logo {
+     width: 60px;
+}
+
+
+
+.navbar-brand {
+     color: #0F3193 !important;
+     font-weight: 700;
+     font-size: 15px;
+     /* overflow: hidden; */
+}
+
+@media (min-width: 576px) {
+     .navbar-brand {
+          color: #0F3193 !important;
+          font-weight: 700;
+          font-size: 20px;
+          /* overflow: hidden; */
+     }
+}
+
+.navbar-brand:hover {
+     color: #7de5ed !important;
+     transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -ms-transition: all 0.5s;
+     -o-transition: all 0.5s;
+}
+
+.nav-link {
+     font-size: 17px;
+     color: #0F3193 !important;
+     font-weight: 600;
+}
+
+.nav-link:hover {
+     color: #7de5ed !important;
+     transition: all 0.4s;
+     -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+     -ms-transition: all 0.4s;
+     -o-transition: all 0.4s;
+}
+
+.navbar {
+     transition: all 0.4s !important;
+     -webkit-transition: all 0.4s !important;
+     -moz-transition: all 0.4s !important;
+     -ms-transition: all 0.4s !important;
+     -o-transition: all 0.4s !important;
+}
+
+.navbar-toggler {
+     outline: none !important;
+}
+
+.navbar-scrolled {
+     /* background-color: #0F3193; */
+     background-color: #fff;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*------------------- Akhri Navbar -------------------*/
+
+/*------------------- Home --------------------------*/
+
+#home {
+     /* background: linear-gradient(to bottom, #fff, #5da7db); */
+     background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(93, 167, 219, 0.4));
+}
+
+/* .c-item {
+     height: 650px;
+} */
+
+.c-img {
+     /* margin-top: 55px; */
+
+     filter: brightness(0.8);
+     -webkit-filter: brightness(0.8);
+}
+
+.carousel-control-prev-icon {
+     width: 15px !important;
+}
+
+.carousel-control-next-icon {
+     width: 15px !important;
+}
+
+.garis-panel {
+     width: 15px !important;
+}
+
+.info-panel {
+     z-index: 1;
+     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+     margin-top: 30px;
+     margin-bottom: 40px;
+     background-color: #fff;
+     padding: 15px;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+}
+
+/* .msm-text {
+     font-size: 20px;
+     line-height: 60px;
+     color: #000;
+} */
+
+.t-layanan {
+     color: rgb(51, 51, 51);
+     font-size: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     line-height: 25px;
+     width: 100%;
+     font-weight: 600;
+     /* text-transform: uppercase; */
+}
+
+.btn {
+     padding: 14px 22px;
+     transition: all 0.4s ease;
+     -webkit-transition: all 0.4s ease;
+     -moz-transition: all 0.4s ease;
+     -ms-transition: all 0.4s ease;
+     -o-transition: all 0.4s ease;
+     color: #fff;
+}
+
+.btn:focus {
+     box-shadow: none !important;
+}
+
+.btn-main {
+     background: linear-gradient(to right, #7de5ed, #5da7db);
+     border-radius: 100px;
+     border: none;
+     -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+     -ms-border-radius: 100px;
+     -o-border-radius: 100px;
+     font-weight: 700;
+     font-size: 15px;
+     margin-bottom: 15px;
+
+}
+
+.btn:hover {
+     color: #2B3467;
+     transform: translateY(-4px);
+     -webkit-transform: translateY(-4px);
+     -moz-transform: translateY(-4px);
+     -ms-transform: translateY(-4px);
+     -o-transform: translateY(-4px);
+}
+
+.supllier {
+     font-weight: 600;
+     margin-top: 60px;
+     margin-bottom: 50px;
+}
+
+.h-supplier {
+     font-weight: 600;
+}
+
+.logo-supplier {
+     /* margin: 100px; */
+     margin-bottom: 40px;
+     width: 100%;
+     padding: 20px;
+     /* height: 100%; */
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+
+.logo-supplier:hover {
+     cursor: pointer;
+     transition: 0.7s;
+     transform: scale(1.06);
+     -webkit-transform: scale(1.06);
+     -moz-transform: scale(1.06);
+     -ms-transform: scale(1.06);
+     -o-transform: scale(1.06);
+     -webkit-transition: 0.7s;
+     -moz-transition: 0.7s;
+     -ms-transition: 0.7s;
+     -o-transition: 0.7s;
+}
+
+/*------------------- akhir Home --------------------------*/
+
+
+/*------------------- Tetang --------------------*/
+
+
+
+.img-tentang {
+     /* margin: auto; */
+     /* width: 500px; */
+     transition: 0.5s;
+     height: 60%;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+
+
+/* @media (max-width: 575.98px) { */
+.img-tentang:hover {
+     cursor: pointer;
+     transform: scale(0.9);
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transform: scale(0.9);
+     -moz-transform: scale(0.9);
+     -ms-transform: scale(0.9);
+     -o-transform: scale(0.9);
+}
+
+.img-tentang {
+     overflow: hidden;
+     position: relative;
+
+}
+
+.btn-tentang {
+     position: absolute;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     display: flex;
+     width: 100%;
+     height: 100%;
+     /*left: 17%;
+          */
+     opacity: 0;
+     bottom: 1px;
+     background: rgba(0, 0, 0, 0.4);
+     transition: 0.7s;
+     -webkit-transition: 0.7s;
+     -moz-transition: 0.7s;
+     -ms-transition: 0.7s;
+     -o-transition: 0.7s;
+}
+
+.btn-more {
+     /* display: inline-block; */
+     opacity: 1;
+}
+
+.img-tentang:hover .btn-tentang {
+     opacity: 1;
+}
+
+/* } */
+
+
+
+
+
+.tagline-tentang {
+     font-size: 23px;
+     /* font-family: 'Jost', sans-serif; */
+     font-family: 'Nunito Sans', sans-serif;
+     font-weight: 600;
+}
+
+.garis-tentang {
+     height: 3px;
+     width: 90px;
+     background: linear-gradient(to left, #7de5ed, #5da7db);
+     margin: auto;
+}
+
+.about-us {
+     text-align: center;
+}
+
+.btn-more {
+     background: transparent;
+     border-radius: 100px;
+     border: 1px solid #5da7db !important;
+     color: #5da7db;
+     -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+     -ms-border-radius: 100px;
+     -o-border-radius: 100px;
+     font-weight: 700;
+     font-size: 15px;
+     margin-bottom: 15px;
+
+}
+
+.btn-more:hover {
+     color: #fff;
+     transform: translateY(-4px);
+     -webkit-transform: translateY(-4px);
+     -moz-transform: translateY(-4px);
+     -ms-transform: translateY(-4px);
+     -o-transform: translateY(-4px);
+}
+
+.galerys {
+     font-family: 'poppins';
+     font-weight: 600;
+
+}
+
+.galerys-konten {
+     margin-top: 60px;
+     /* margin-bottom: 80px; */
+}
+
+.galerys-konten-down {
+     margin-bottom: 60px;
+}
+
+.galery {
+     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+     width: 100%;
+     border-radius: 10px;
+     height: 90%;
+     filter: grayscale(1) brightness(0.5);
+     transition: 0.5s;
+     -webkit-filter: grayscale(1) brightness(0.5);
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
+
+.galery:hover {
+     cursor: pointer;
+     transform: scale(1.05);
+     transition: 0.5s;
+     filter: grayscale(0);
+     -webkit-filter: grayscale(0);
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     -webkit-transform: scale(1.05);
+     -moz-transform: scale(1.05);
+     -ms-transform: scale(1.05);
+     -o-transform: scale(1.05);
+}
+
+/* .hero-galery {
+     display: flex;
+} */
+
+
+/*------------------ Akhir Tentang --------------------*/
+
+
+
+/*------------------ Layanan --------------------*/
+
+#service {
+     background: linear-gradient(to top, rgb(255, 255, 255), rgba(93, 167, 219, 0.4));
+}
+
+.garis-layanan {
+     height: 3px;
+     width: 90px;
+     background: linear-gradient(to right, #00e0fe, #1107fe);
+     margin: auto;
+}
+
+
+
+
+.card {
+     position: relative;
+     /*width: 400px;
+     */
+     height: 450px;
+     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+     transition: 0.7s ease-out;
+     -webkit-transition: 0.7s ease-out;
+     -moz-transition: 0.7s ease-out;
+     -ms-transition: 0.7s ease-out;
+     -o-transition: 0.7s ease-out;
+     overflow: hidden;
+}
+
+
+.msm-servis {
+     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.6);
+     width: 100%;
+     height: 450px;
+     border-radius: 3px;
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+
+.intro {
+     /* font-family: 'Jost', sans-serif; */
+     height: 200px;
+     width: 100%;
+     padding: 6px;
+     box-sizing: border-box;
+     position: absolute;
+     bottom: -135px;
+     background: rgba(0, 0, 0, 0.6);
+     transition: 0.7s;
+     -webkit-transition: 0.7s;
+     -moz-transition: 0.7s;
+     -ms-transition: 0.7s;
+     -o-transition: 0.7s;
+}
+
+
+.icon {
+     width: 100px;
+     height: 100px;
+     background: linear-gradient(to right, #00e0fe, #1107fe);
+     border-radius: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     bottom: 70px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+
+.img-ser {
+     /* height: 60%; */
+     width: 70%;
+}
+
+.servis-img {
+     transition: 1s;
+     -webkit-transition: 1s;
+     -moz-transition: 1s;
+     -ms-transition: 1s;
+     -o-transition: 1s;
+}
+
+.tentang-servis {
+     font-family: 'poppins';
+     /* font-family: 'Nunito Sans', sans-serif; */
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     color: #fff;
+     left: 10px;
+     font-weight: 700;
+     font-size: 25px;
+     text-transform: uppercase;
+}
+
+
+.p-layanan {
+     font-family: 'Nunito Sans', sans-serif;
+     color: white;
+     transition: 2s;
+     opacity: 0;
+}
+
+.btn-servis {
+     margin-top: 10px;
+     transition: 0.7s;
+     -webkit-transition: 0.7s;
+     -moz-transition: 0.7s;
+     -ms-transition: 0.7s;
+     -o-transition: 0.7s;
+}
+
+.card:hover {
+     cursor: pointer;
+
+}
+
+.card:hover .intro {
+     height: 350px;
+     bottom: 1px;
+     background: rgba(0, 0, 0, 0.9);
+}
+
+.card:hover .p-layanan {
+     opacity: 1;
+}
+
+.card:hover .msm-servis {
+     transition: 1.5s;
+     transform: scale(1.2);
+     filter: brightness(0.5);
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     -webkit-filter: brightness(0.5);
+     -webkit-transition: 1.5s;
+     -moz-transition: 1.5s;
+     -ms-transition: 1.5s;
+     -o-transition: 1.5s;
+}
+
+
+/*------------------ Akhir Layanan --------------------*/
+
+
+/*------------------ Kontak --------------------*/
+#contact {
+     background-color: #0F3193;
+}
+
+.footer {
+     font-family: 'poppins';
+}
+
+.pli {
+     margin-right: 3px;
+}
+
+.footer {
+     color: #fff;
+     position: static;
+     top: 100%;
+}
+
+/*------------------ Akhir Kontak --------------------*/
+
+/* .c-item {
+     height: 600px;
+
+} */
+
+
+
+/* DESKTOP */
+/*  */
